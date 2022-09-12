@@ -1,7 +1,7 @@
 {
   "name": "fpl-helper-app",
   "version": "0.1.0",
-  "homepage": "http://gthorp91.github.io",
+  "homepage": "http://gthorp91.github.io/FPL_Helper",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
