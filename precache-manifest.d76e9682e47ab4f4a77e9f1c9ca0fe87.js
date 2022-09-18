@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bfbd88d39ef7b6db668a",
+    "revision": "40539f1603534fb89eb6",
     "url": "/fpl-helper/static/css/main.37dc238b.chunk.css"
   },
   {
-    "revision": "bfbd88d39ef7b6db668a",
-    "url": "/fpl-helper/static/js/main.bfbd88d3.chunk.js"
+    "revision": "40539f1603534fb89eb6",
+    "url": "/fpl-helper/static/js/main.40539f16.chunk.js"
   },
   {
     "revision": "991710d60cc142e1f491",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/fpl-helper/static/js/runtime~main.334ef82c.js"
   },
   {
-    "revision": "8ba6c050511d9d0b32e850def62524d9",
+    "revision": "3558b68c50397a7a6b222f0ac1cfa6f8",
     "url": "/fpl-helper/index.html"
   }
 ];

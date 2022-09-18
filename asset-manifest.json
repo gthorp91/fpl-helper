@@ -1,7 +1,7 @@
 {
   "main.css": "/fpl-helper/static/css/main.37dc238b.chunk.css",
-  "main.js": "/fpl-helper/static/js/main.bfbd88d3.chunk.js",
-  "main.js.map": "/fpl-helper/static/js/main.bfbd88d3.chunk.js.map",
+  "main.js": "/fpl-helper/static/js/main.40539f16.chunk.js",
+  "main.js.map": "/fpl-helper/static/js/main.40539f16.chunk.js.map",
   "static/js/1.991710d6.chunk.js": "/fpl-helper/static/js/1.991710d6.chunk.js",
   "static/js/1.991710d6.chunk.js.map": "/fpl-helper/static/js/1.991710d6.chunk.js.map",
   "static/js/2.2b392852.chunk.js": "/fpl-helper/static/js/2.2b392852.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/fpl-helper/static/js/runtime~main.334ef82c.js.map",
   "static/css/main.37dc238b.chunk.css.map": "/fpl-helper/static/css/main.37dc238b.chunk.css.map",
   "index.html": "/fpl-helper/index.html",
-  "precache-manifest.fa02250580b2b85fcc15a145ced204a2.js": "/fpl-helper/precache-manifest.fa02250580b2b85fcc15a145ced204a2.js",
+  "precache-manifest.d76e9682e47ab4f4a77e9f1c9ca0fe87.js": "/fpl-helper/precache-manifest.d76e9682e47ab4f4a77e9f1c9ca0fe87.js",
   "service-worker.js": "/fpl-helper/service-worker.js"
 }
