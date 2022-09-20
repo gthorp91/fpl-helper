@@ -17,7 +17,7 @@ import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Slider from '@mui/material/Slider'
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import Dialog from '@mui/material/Dialog';
@@ -110,7 +110,7 @@ function App() {
 
   useEffect(() => {
     //fetch('data.json', { headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' } })
-    fetch('https://fantasy.premierleague.com/api/bootstrap-static/')
+    fetch('https://evening-plains-13006.herokuapp.com/https://fantasy.premierleague.com/api/bootstrap-static/')
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -350,12 +350,12 @@ function App() {
       selectedTeam.forEach(p => {
         teamCounter.push(p.team);
         if (teamCounter.filter(t => t === p.team).length > 3){
-          alert('Too many players selected from ' + p.teamName);
+          alert('Too many players selected from ' + p.team);
           selectedTeam.splice(selectedTeam.indexOf(player),1);
         }
         costCounter += parseFloat((p.now_cost / 10).toFixed(1));
         if (costCounter >= 100){
-          alert('Team cost is over £100m, current team selection costs: £' + costCounter);
+          alert('Team cost is over £100m, current team selection costs: £' + parseFloat((costCounter).toFixed(1)));
         }
         positionCounter.push(p.element_type); 
         if (p.element_type === 1 && positionCounter.filter(pos => pos === p.element_type).length > 2){
@@ -376,7 +376,7 @@ function App() {
         }
       })
 
-      setSelectedTeamCost(costCounter);
+      setSelectedTeamCost(parseFloat((costCounter).toFixed(1)))
       setSelectedTeamCount(selectedTeam.length)
 
     }
